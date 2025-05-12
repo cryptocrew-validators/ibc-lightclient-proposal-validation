@@ -163,6 +163,7 @@ print_and_validate() {
   echo "----------------------------------------"
   echo "Proposal title: $TITLE"
   echo "Message #$((idx+1)): subject=$SUBJ_CLIENT_ID substitute=$SUBS_CLIENT_ID"
+  echo "Reference RPC: $MSG_REF_RPC"
   echo "  host:      $SUBJ_CLIENT_VALSET_NEXTHASH"
   echo "  reference: $REF_SUBJ_CLIENT_VALSET_NEXTHASH"
   echo "  host:      $SUBS_CLIENT_VALSET_NEXTHASH"
